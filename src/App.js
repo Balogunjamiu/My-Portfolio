@@ -11,3 +11,4 @@ function App() {
 }
 
 export default App;
+// "predeploy": "npm run build",
