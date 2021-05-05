@@ -301,10 +301,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "",
-      subtitle: "",
+      title: "Proficiency",
+      subtitle: "My frequent coding has by far increased my proficency",
       slides_url: "",
-      event_url: ""
+       event_url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
