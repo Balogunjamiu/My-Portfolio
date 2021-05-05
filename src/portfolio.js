@@ -27,7 +27,7 @@ const socialMediaLinks = {
   gmail: "balogunjamiu49@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
+  // medium: "https://medium.com/@davidrakosi",
   // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
   instagram: 'https://www.instagram.com/man_of_wisdom3/',
   // twitter: 'https://twitter.com/davidrakosi_',
