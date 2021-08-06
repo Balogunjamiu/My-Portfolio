@@ -5,7 +5,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
@@ -174,34 +174,71 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/expensify.png"),
+      projectName: "Expensify",
+      projectDesc: "It is helps to manage expenses with realtime databasen and user authentication",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "http://jamiu-expensify-app.herokuapp.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/chatapp.png"),
+      projectName: "Chatapp",
+      projectDesc: "This create Room for conection between two or more people",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://jamiu-chatapp.herokuapp.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/indecision.png"),
+      projectName: "Indecision-App",
+      projectDesc: "it assists in making choice",
       footerLink: [
         {
           name: "Visit Website",
           url: ""
         }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/APILogo.png"),
+      projectName: "TaskManager API",
+      projectDesc: "It is an API that interacts with a database.",
+      footerLink: [
+        {
+          name: "Visit github",
+          url: "https://github.com/Balogunjamiu/Task-manager-API"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/APILogo.png"),
+      projectName: "TaskManager API",
+      projectDesc: "It is an API that interacts with a database.",
+      footerLink: [
+        {
+          name: "Visit github",
+          url: "https://github.com/Balogunjamiu/Task-manager-API"
+        }
+        //  you can add extra buttons here.
       ]
     }
+    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -214,56 +251,32 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Udemy certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Reactjs certficate.",
+      image: require("./assets/images/UdemyLogo.png"),
       footerLink: [
         {
-          name: "Certification",
-          url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            ""
+          name: "View",
+          url:"www.udemy.com"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Udemy certificate",
+      subtitle:
+        "Nodejs certficate.",
+      image: require("./assets/images/UdemyLogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: ""
+          name: "View",
+          url:"www.udemy.com"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
